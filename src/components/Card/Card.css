@@ -1,0 +1,94 @@
+.Card{
+  width: 210px;
+  height:130px;
+  background: #ffffff;
+  border-radius:15px; 
+  box-shadow: 0px 1px 10px 2.5px #000000;
+  overflow: hidden;
+}
+.Card:hover{
+transform: scale(1.03);
+border: none;
+color: white;
+transition-duration: 0.3s;
+animation: ease-in-out;
+}
+
+.upper-container{
+  height: 40px;
+  background: linear-gradient(to left, #105ecb, #e41c94);
+  /* background: #000000; */
+}
+
+.image-container img{
+  background: white;
+  width: 70px;
+  height: 70px;
+  border-radius: 100%;
+  padding: 3px;
+  transform: translate(69px,3px);
+}
+
+.image-container:hover{
+  transform: scale(1.1);
+  border: none;
+  color: white;
+  transition-duration: 0.3s;
+  animation: ease-in-out;
+  }
+
+/* img{
+  border:2px solid #105ecb;
+} */
+
+.lower-container{
+  margin-top:35px;
+  height: 200px;
+  background: white;
+  text-align: center;
+  font-family: 'Titillium web ', sans-serif;
+}
+
+.lower-container h4,h5,p{
+  margin:0;
+  padding: 0;
+}
+
+.lower-container h4{
+  color: #2f2d2e;
+  font-weight: 650;
+  font-size: 0.9rem;
+}
+
+.lower-container h5{
+  color: #000000;
+  font-weight: 640;
+  font-size: 0.8rem;
+}
+
+.lower-container p{
+  margin: 1rem;
+  color: #2d2f2e;
+  font-weight: 300;
+  font-size: 0.9rem;
+  text-align: justify;
+}
+button{
+  margin: 1rem;
+  margin-top: 0;
+  color: #2d2f2e;
+  font: bold;
+  background-color: white;
+  border: 2px solid #8e0bb9;
+  padding: 0.6rem;
+  border-radius: 6px;
+  transition-duration: 0.5s;
+  animation: ease-in-out;
+}
+
+button:hover{
+  background-image: linear-gradient(to left, #2d00f7, #eb3075);
+  transform: scale(1.2);
+  border: none;
+  color: white;
+}

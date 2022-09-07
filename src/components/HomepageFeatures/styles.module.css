@@ -1,0 +1,54 @@
+.features {
+  display: flex;
+  align-items: center;
+  padding: 2rem 0;
+  width: 100%;
+ 
+}
+
+.featureSvg {
+  height: 100px;
+  width: 100px;
+}
+
+.featureMapImage{
+  height:90%;
+  width:90%;
+}
+.blueColorFont{
+  color: #186ee7;
+}
+
+.colorCodeOrange{
+  color:#e19407;
+  font-weight: 500;
+}
+
+.colorCodeGreen{
+  color:#0bb30b;
+  font-weight: 500;
+
+}
+
+.colorCodeGrey{
+  color:#1082c0;
+  font-weight: 500;
+
+}
+
+
+.colorCodeYellow{
+  color:#b4b40c;
+  font-weight: 500;
+
+}
+
+.colorCodeBlack{
+  color:rgb(11, 11, 11);
+  font-weight: 650;
+
+}
+
+.cardProfile{
+  font-weight: 650;
+}
